@@ -10,7 +10,9 @@ group = '%%prefix%%'
 version = '0.1.0'
 
 repositories {
-    mavenCentral()
+    maven {
+		url=aurlhere
+	}
 }
 
 dependencies {
